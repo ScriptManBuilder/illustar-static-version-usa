@@ -59,7 +59,7 @@ const Header: React.FC = () => {
   };
 
   const handleProductsMouseEnter = () => {
-    console.log('Mouse entered CATALOG'); // Временная отладка
+   
     isMouseOverProducts.current = true;
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);

@@ -220,7 +220,7 @@ const Account: React.FC = () => {
               <div style={{ 
                 fontSize: isMobile ? '1.5rem' : '2rem', 
                 fontWeight: 'bold' 
-              }}>7</div>
+              }}>4.5</div>
               <div style={{ 
                 fontSize: isMobile ? '0.8rem' : '0.9rem', 
                 opacity: 0.8 
@@ -396,7 +396,7 @@ const Account: React.FC = () => {
                         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                           <span style={{ color: '#718096', fontSize: '0.95rem' }}>Duration</span>
                           <span style={{ fontWeight: '600', color: '#2d3748' }}>
-                            {course.id <= 4 ? '18-42 min' : course.id <= 7 ? '38-54 min' : '28-60 min'}
+                            {course.id <= 4 ? '5-10 min' : course.id <= 8 ? '12-22 min' : course.id <= 12 ? '25-35 min' : '24-40 min'}
                           </span>
                         </div>
                         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
