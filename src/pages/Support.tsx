@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MailIcon, PhoneIcon, ClockIcon } from '../components/Icons';
+import { MailIcon, PhoneIcon, ClockIcon, LocationIcon } from '../components/Icons';
 import { CONTACT_INFO } from '../config/constants';
 import {
   SupportWrapper,
@@ -69,7 +69,7 @@ const Support: React.FC = () => {
           <HeroContent>
             <HeroTitle>Student Support</HeroTitle>
             <HeroSubtitle>
-              We're here to help you succeed. Get expert assistance with your AI learning journey from our dedicated support team.
+              We're here to help you succeed. Get expert assistance with your learning journey from our dedicated support team.
             </HeroSubtitle>
           </HeroContent>
         </Container>
@@ -86,7 +86,7 @@ const Support: React.FC = () => {
                 </ContactIcon>
                 <ContactContent>
                   <ContactTitle>Email Support</ContactTitle>
-                  <ContactInfo>Average response time: 2-4 hours</ContactInfo>
+                  <ContactInfo>Response: 2-4 hours</ContactInfo>
                   <ContactText>
                     {CONTACT_INFO.email}
                   </ContactText>
@@ -99,7 +99,7 @@ const Support: React.FC = () => {
                 </ContactIcon>
                 <ContactContent>
                   <ContactTitle>Phone Support</ContactTitle>
-                  <ContactInfo>Monday - Friday, 9 AM - 6 PM MST</ContactInfo>
+                  <ContactInfo>Mon-Fri, 9 AM - 6 PM MST</ContactInfo>
                   <ContactText>
                     {CONTACT_INFO.phoneFormatted}
                   </ContactText>
@@ -112,8 +112,20 @@ const Support: React.FC = () => {
                 </ContactIcon>
                 <ContactContent>
                   <ContactTitle>Business Hours</ContactTitle>
-                  <ContactInfo>Monday - Friday: 9:00 AM - 6:00 PM GMT</ContactInfo>
-                  <ContactInfo style={{ marginTop: '5px' }}>Weekend: Emergency support only</ContactInfo>
+                  <ContactInfo>Mon-Fri: 9 AM - 6 PM MST</ContactInfo>
+                  <ContactInfo style={{ marginTop: '5px' }}>Weekend: Emergency only</ContactInfo>
+                </ContactContent>
+              </ContactCard>
+              
+              <ContactCard>
+                <ContactIcon>
+                  <LocationIcon size={isMobile ? 24 : 32} />
+                </ContactIcon>
+                <ContactContent>
+                  <ContactTitle>Our Address</ContactTitle>
+                  <ContactInfo>The Williams Collection Inc.</ContactInfo>
+                  <ContactInfo style={{ marginTop: '5px' }}>E 2ND ST 5830</ContactInfo>
+                  <ContactInfo style={{ marginTop: '5px' }}>Casper, WY 82609, US</ContactInfo>
                 </ContactContent>
               </ContactCard>
             </ContactMethodsGrid>

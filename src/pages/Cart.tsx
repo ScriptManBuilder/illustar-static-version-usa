@@ -110,9 +110,13 @@ const Cart: React.FC = () => {
               Proceed to Checkout
             </Button>
             
-            {/* <div style={{ textAlign: 'center', marginTop: '15px', fontSize: '0.85rem', color: '#9ca3af' }}>
-              Accept 4 payment methods
-            </div> */}
+            <div style={{ textAlign: 'center', marginTop: '15px', fontSize: '0.85rem', color: '#9ca3af' }}>
+              We accept
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '10px' }}>
+              <img src="/images/visa.svg" alt="Visa" style={{ height: '32px', width: 'auto' }} />
+              <img src="/images/mastercard.svg" alt="Mastercard" style={{ height: '32px', width: 'auto' }} />
+            </div>
           </CartSummary>
         </CartContent>
 
