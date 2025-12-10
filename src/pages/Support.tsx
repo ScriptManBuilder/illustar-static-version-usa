@@ -124,8 +124,8 @@ const Support: React.FC = () => {
                 <ContactContent>
                   <ContactTitle>Our Address</ContactTitle>
                   <ContactInfo>The Williams Collection Inc.</ContactInfo>
-                  <ContactInfo style={{ marginTop: '5px' }}>E 2ND ST 5830</ContactInfo>
-                  <ContactInfo style={{ marginTop: '5px' }}>Casper, WY 82609, US</ContactInfo>
+              
+                  <ContactInfo style={{ marginTop: '5px' }}>E 2ND ST 5830 Casper, WY 82609, US</ContactInfo>
                 </ContactContent>
               </ContactCard>
             </ContactMethodsGrid>
