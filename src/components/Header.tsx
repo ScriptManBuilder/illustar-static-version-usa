@@ -228,8 +228,6 @@ const Header: React.FC = () => {
         </NavLinks>
         
         <RightSection>
-          <CurrencyToggle />
-          
           <CartIcon to="/cart">
             <ShoppingCartIcon />
             {state.itemCount > 0 && (

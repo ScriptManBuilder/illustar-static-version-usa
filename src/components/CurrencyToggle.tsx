@@ -172,8 +172,7 @@ const CurrencyToggle: React.FC<CurrencyToggleProps> = ({ onCurrencyChange }) => 
   }, []);
 
   const currencies = [
-    { code: 'USD', symbol: '$', name: 'US Dollar' },
-    { code: 'EUR', symbol: '€', name: 'Euro' }
+    { code: 'USD', symbol: '$', name: 'US Dollar' }
   ];
 
   const currentCurrencyData = currencies.find(c => c.code === currentCurrency);
