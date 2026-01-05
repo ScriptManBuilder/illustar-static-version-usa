@@ -186,14 +186,12 @@ const RefundPolicy: React.FC = () => {
         <Paragraph>
           For refund requests or questions about this policy, please contact us:
         </Paragraph>
-        <Paragraph>
-   
-          Director: Shannon Williams<br/>
-          Email: {CONTACT_INFO.email}<br/>
-          Phone: {CONTACT_INFO.phoneFormatted}<br/>
-          Address: E 2ND ST 5830 Casper WY US 82609<br/>
-          Support Hours: Monday-Friday, 9 AM - 6 PM MST
-        </Paragraph>
+        <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+          <img 
+            src="/company_info.png"                
+            style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+          />
+        </div>
         <Paragraph>
           <strong>For urgent refund requests:</strong> Please include "URGENT REFUND" in your email subject line.
         </Paragraph>

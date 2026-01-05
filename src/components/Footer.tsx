@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
 
         <FooterBottom>
           <Copyright>
-            Copyright  2025 {COMPANY_INFO.name}. All rights reserved. | Premium Illustration Education & Training Courses
+            Copyright  2025. All rights reserved. | Premium Illustration Education & Training Courses
           </Copyright>
         </FooterBottom>
       </FooterContent>

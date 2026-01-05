@@ -256,14 +256,12 @@ const PrivacyPolicy: React.FC = () => {
         <Paragraph>
           If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at:
         </Paragraph>
-        <Paragraph>
-          <strong>{COMPANY_INFO.name}</strong><br/>
-          Director: Shannon Williams<br/>
-          5830 E 2ND ST<br/>
-          Casper, WY 82609, United States<br/>
-          Email: {CONTACT_INFO.email}<br/>
-          Phone: {CONTACT_INFO.phoneFormatted}
-        </Paragraph>
+        <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+          <img 
+            src="/company_info.png"                
+            style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+          />
+        </div>
       </Section>
     </Container>
   );

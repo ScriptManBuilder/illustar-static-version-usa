@@ -59,18 +59,18 @@ const TermsConditions: React.FC = () => {
           This Illustration course platform is operated by {COMPANY_INFO.name}. 
           Our contact information:
         </Paragraph>
-        <Paragraph>
-          Director: Shannon Williams<br/>
-          Email: {CONTACT_INFO.email}<br/>
-          Phone: {CONTACT_INFO.phoneFormatted}<br/>
-          Address: E 2ND ST 5830 Casper WY US 82609
-        </Paragraph>
+        <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+          <img 
+            src="/company_info.png"                
+            style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+          />
+        </div>
       </Section>
 
       <Section>
         <SectionTitle>3. Digital Illustration Course Pricing</SectionTitle>
         <Paragraph>
-          Our Illustration courses are available at the following price points: {formatPrice(6.99)}, {formatPrice(9.99)}, {formatPrice(19.99)}, {formatPrice(29.99)}, {formatPrice(39.99)}, {formatPrice(49.99)}, {formatPrice(59.99)}, {formatPrice(69.99)}, {formatPrice(79.99)}, {formatPrice(89.99)}, and {formatPrice(99.99)}. 
+          Our Illustration courses are available at the following price points: {formatPrice(1)}, {formatPrice(1.95)}, {formatPrice(6.99)}, {formatPrice(9.99)}, {formatPrice(19.99)}, {formatPrice(29.99)}, {formatPrice(39.99)}, {formatPrice(49.99)}, {formatPrice(59.99)}, {formatPrice(69.99)}, {formatPrice(79.99)}, {formatPrice(89.99)}, {formatPrice(99.99)}, {formatPrice(109)}, {formatPrice(119)}, {formatPrice(129)}, and {formatPrice(139)}. 
           All prices are in USD and include applicable taxes. Prices are subject to change without notice.
         </Paragraph>
       </Section>
@@ -186,14 +186,12 @@ const TermsConditions: React.FC = () => {
         <Paragraph>
           For questions about these Terms & Conditions or course-related inquiries, please contact us at:
         </Paragraph>
-        <Paragraph>
-       
-          Director: Shannon Williams<br />
-          Address: E 2ND ST 5830 Casper WY US 82609<br />
-          Phone: {CONTACT_INFO.phoneFormatted}<br />
-          Email: {CONTACT_INFO.email}<br />
-          Support Hours: Monday-Friday, 9 AM - 6 PM MST
-        </Paragraph>
+        <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+          <img 
+            src="/company_info.png"                
+            style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+          />
+        </div>
       </Section>
     </Container>
   );
